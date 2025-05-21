@@ -3,7 +3,7 @@ import Logo from './Images/Logo2.png'
 
 function Navbar() {
   return (
-    <div className='bg-teal-600 text-slate-50 text-2xl font-arial  h-13 flex  items-center justify-around px-12 gap-[500px] fixed'>
+    <div className='bg-teal-600 text-slate-50 text-2xl font-arial  h-13 flex  items-center justify-around px-17 gap-[500px] fixed'>
          <ul className='flex gap-0.5'>
             <img src={Logo} alt="logo" className='w-[47px]' />
             <li className='flex'>
