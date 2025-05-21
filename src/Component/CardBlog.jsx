@@ -13,7 +13,7 @@ function CardBlog() {
   console.log(posts)
   return (
     <>    
-      <div className=' mx-auto px-4 mt-16 max-w-[1605px]'>
+      <div className=' mx-auto px-4 mt-16 max-w-[1300px]'>
         <div className='text-teal-300 uppercase font-bold text-sm mb-3'>
             kategori
         </div>
@@ -21,7 +21,7 @@ function CardBlog() {
         <p className="text-slate-400 text-2xl mb-14">Baca artikel terbaru yang masih fresh dan hangat!</p>
       </div>
 
-    <div className='max-w-[1605px] mx-auto grid grid-cols-3 gap-7 px-4 mb-10'>
+    <div className='max-w-[1300px] mx-auto grid grid-cols-3 gap-7 px-4 mb-10'>
       {posts.slice(0, 12). map(posts => (
         <div key={posts.id} className="bg-slate-800 rounded-lg p-6 mb-4">
           <div className='flex justify-center items-center bg-teal-400 h-[240px] text-2xl font-bold  rounded-lg ' >{posts.id}</div>

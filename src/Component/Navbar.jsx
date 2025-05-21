@@ -3,11 +3,11 @@ import Logo from './Images/Logo2.png'
 
 function Navbar() {
   return (
-    <div className='bg-teal-600 text-slate-50 text-2xl font-arial  h-17 flex w-full  items-center justify-around px-27 gap-[700px] fixed'>
-         <ul className='flex gap-2 '>
+    <div className='bg-teal-600 text-slate-50 text-2xl font-arial  h-13 flex  items-center justify-around px-12 gap-[500px] fixed'>
+         <ul className='flex gap-0.5'>
             <img src={Logo} alt="logo" className='w-[47px]' />
             <li className='flex'>
-                <button className='flex items-center gap-1 px-3 py-2 rounded-lg font-medium text-gray-100 hover:bg-teal-700 ' >
+                <button className='flex items-center gap-1 px-3 rounded-lg font-medium text-gray-100 hover:bg-teal-700 ' >
                     <svg className='h-[20px] w-[20px] ml-[3px]' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
                         <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
                     </svg>
@@ -75,7 +75,7 @@ function Navbar() {
             </li>
 
             <li className='flex'>
-                <button className='p-1 bg-teal-500 h-[50px] w-[180px] rounded-md hover:bg-teal-700'>
+                <button className='p-1 bg-teal-500 h-[40px] w-[180px] rounded-lg hover:bg-teal-700'>
                     <a href="">Join Newsletter</a>
                 </button>
             </li>

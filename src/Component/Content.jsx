@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Content() {
   return (
-    <div className=' mx-auto px-4 mt-16 max-w-[1605px]'>
+    <div className=' mx-auto px-4 mt-16 max-w-[1300px]'>
         <div className='text-teal-300 uppercase font-bold text-sm mb-3'>
             kategori
         </div>
